@@ -1,5 +1,7 @@
 # tideguard
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24245474.svg)](https://doi.org/10.5281/zenodo.24245474)
+
 **A decision-aware model-selection harness for data-scarce surveillance forecasting**
 
 Open, reusable harness and a baseline-first *selection rule* for deciding whether a
