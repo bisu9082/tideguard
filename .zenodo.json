@@ -1,0 +1,15 @@
+{
+  "title": "tideguard: a decision-aware model-selection harness for data-scarce surveillance forecasting",
+  "description": "Open, reusable evaluation harness and decision-aware, baseline-first model-selection rule for data-scarce surveillance forecasting. Reproduces a rolling-origin benchmark of forecasting configurations (persistence, statistical, machine- and deep-learning baselines, zero-shot foundation models, and LoRA fine-tuning) across two wastewater surveillance systems and four pathogens, with site-clustered uncertainty, surge-detection decision metrics, and Model Confidence Set (Hansen et al., 2011) model selection.",
+  "license": "MIT",
+  "upload_type": "software",
+  "keywords": ["time-series foundation models","forecast evaluation","model selection","decision support","model confidence set","wastewater-based surveillance"],
+  "creators": [
+    {"name": "Yoo, Jin", "affiliation": "CBRN Defense Research Institute, Korea Ministry of National Defense"},
+    {"name": "Kim, Jeongyoon", "affiliation": "Seoul National University"},
+    {"name": "Park, Boyeon", "affiliation": "CBRN Defense Research Institute, Korea Ministry of National Defense"},
+    {"name": "Cha, Janghyun", "affiliation": "Korean National Police Agency"},
+    {"name": "Yoo, Jun", "affiliation": "CBRN Defense Research Institute, Korea Ministry of National Defense"},
+    {"name": "Kang, Ku", "affiliation": "CBRN Defense Research Institute, Korea Ministry of National Defense"}
+  ]
+}

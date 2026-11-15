@@ -1,0 +1,104 @@
+{
+  "fluA": {
+    "cities": 4,
+    "mean_mae": {
+      "ridge_ar": 0.3482,
+      "ar_ols": 0.37,
+      "naive": 0.3767,
+      "timesfm": 0.3839,
+      "chronos": 0.3871,
+      "ets": 0.4758,
+      "seasonal_naive": 0.7485
+    },
+    "stats": {
+      "timesfm_vs_naive": {
+        "dMAE": 0.0072,
+        "t": 0.257,
+        "n": 4
+      },
+      "timesfm_vs_ridge_ar": {
+        "dMAE": 0.0357,
+        "t": 1.368,
+        "n": 4
+      },
+      "timesfm_vs_ets": {
+        "dMAE": -0.0919,
+        "t": -3.223,
+        "n": 4
+      },
+      "timesfm_vs_seasonal_naive": {
+        "dMAE": -0.3646,
+        "t": -2.285,
+        "n": 4
+      }
+    }
+  },
+  "fluB": {
+    "cities": 10,
+    "mean_mae": {
+      "timesfm": 0.2432,
+      "ar_ols": 0.2507,
+      "ridge_ar": 0.2564,
+      "chronos": 0.2617,
+      "naive": 0.2643,
+      "ets": 0.2737,
+      "seasonal_naive": 0.3811
+    },
+    "stats": {
+      "timesfm_vs_naive": {
+        "dMAE": -0.0211,
+        "t": -4.04,
+        "n": 10
+      },
+      "timesfm_vs_ridge_ar": {
+        "dMAE": -0.0132,
+        "t": -1.314,
+        "n": 10
+      },
+      "timesfm_vs_ets": {
+        "dMAE": -0.0305,
+        "t": -3.646,
+        "n": 10
+      },
+      "timesfm_vs_seasonal_naive": {
+        "dMAE": -0.1379,
+        "t": -2.797,
+        "n": 10
+      }
+    }
+  },
+  "rsv": {
+    "cities": 8,
+    "mean_mae": {
+      "timesfm": 0.2709,
+      "ar_ols": 0.2747,
+      "chronos": 0.2936,
+      "naive": 0.306,
+      "ridge_ar": 0.3117,
+      "ets": 0.3323,
+      "seasonal_naive": 0.4506
+    },
+    "stats": {
+      "timesfm_vs_naive": {
+        "dMAE": -0.035,
+        "t": -6.86,
+        "n": 8
+      },
+      "timesfm_vs_ridge_ar": {
+        "dMAE": -0.0408,
+        "t": -2.255,
+        "n": 8
+      },
+      "timesfm_vs_ets": {
+        "dMAE": -0.0613,
+        "t": -5.279,
+        "n": 8
+      },
+      "timesfm_vs_seasonal_naive": {
+        "dMAE": -0.1797,
+        "t": -3.336,
+        "n": 8
+      }
+    }
+  }
+}

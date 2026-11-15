@@ -1,0 +1,25 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "tideguard: a decision-aware model-selection harness for data-scarce surveillance forecasting"
+authors:
+  - family-names: Yoo
+    given-names: Jin
+  - family-names: Kim
+    given-names: Jeongyoon
+  - family-names: Park
+    given-names: Boyeon
+  - family-names: Cha
+    given-names: Janghyun
+  - family-names: Yoo
+    given-names: Jun
+  - family-names: Kang
+    given-names: Ku
+license: MIT
+repository-code: "https://github.com/bisu9082/tideguard"
+keywords:
+  - time-series foundation models
+  - forecast evaluation
+  - model selection
+  - decision support
+  - model confidence set
+  - wastewater surveillance
